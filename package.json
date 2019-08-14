@@ -2,15 +2,15 @@
   "name": "minesweeper",
   "private": true,
   "scripts": {
-    "test": "jest src/test.{js,ts} --watch"
+    "test": "mocha --opts mocha.opts"
   },
   "dependencies": {
-    "@types/jest": "^24.0.16",
-    "jest": "^24.8.0",
-    "ts-jest": "^24.0.2",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.7.1",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "ts-node": "^8.3.0",
     "typescript": "^3.5.3"
-  },
-  "jest": {
-    "preset": "ts-jest/presets/js-with-ts"
   }
 }
